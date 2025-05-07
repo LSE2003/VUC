@@ -4,11 +4,10 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(to bottom, #4cafaf, #0077b6); /* Fond dégradé de vert-bleu à bleu clair */
+    background: linear-gradient(to bottom, #90dada, #8fd1cc); /* Fond dégradé de vert-bleu à bleu clair */
     color: #333; /* Texte par défaut en gris foncé */
 }
 
-/* Section Héros */
 /* Section Héros */
 .hero {
     display: flex;
@@ -16,11 +15,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 60px 20px;
-    background: url('Fond/fond acceuil 2.jpeg');
 }
 
 .hero-box {
-    background: url('Fond/fond acceuil 2.jpeg');
     border-radius: 16px;
     padding: 40px;
     max-width: 1000px;
@@ -54,11 +51,14 @@ body {
     overflow: hidden;
     border-radius: 10px;
     margin: 0 auto;
+    display: flex;            /* Ajoute cette ligne pour utiliser Flexbox */
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;      /* Centre verticalement */
 }
 
 .hero-video {
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     object-fit: cover;
     border-radius: 10px;
 }
